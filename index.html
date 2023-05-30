@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>flex property</title>
+        <link rel="stylesheet" href="style.css">
+		</head>
+	<body>
+		<section class="home">
+		<div class="container">
+			<div class="head">
+				<h1>flex-display property</h1>
+				<br>
+				<p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children</p>
+				<br>
+			</div>
+				<h3>display:flex;</h3>
+				<div class="row">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<h1>flex-conatiner properties(parent properties)</h1>
+				<br>
+				<h2>flex-direction</h2>
+				<p>The flex-direction property specifies the direction of the flexible items</p>
+				<br>
+				<h3>flex-direction:row;</h3>
+				<div class="dir_row">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>flex-direction:row-reverse;</h3>
+				<div class="dir_rreverse">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>flex-direction:column;</h3>
+				<div class="dir_column">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>flex-direction:column-reverse;</h3>
+				<div class="dir_creverse">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h2>flex-wrap</h2>
+				<p>The flex-wrap property specifies whether the flexible items should wrap or not</p>
+				<br>
+				<h3>flex-wrap:nowrap;</h3>
+				<div class="nowrap">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box" style="width:500px;">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>flex-wrap:wrap;</h3>
+				<div class="wrap">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box" style="width:500px;">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>flex-wrap:wrap-reverse;</h3>
+				<div class="wrap-reverse">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box" style="width:500px;">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h2>justify-content</h2>
+				<br>
+				<p>The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).</p>
+				<br>
+				<h3>justify-content:flex-start;</h3>
+				<div class="flexstart">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>justify-content:flex-end;</h3>
+				<div class="flexend">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>justify-content:center;</h3>
+				<div class="center">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>justify-content:space-between;</h3>
+				<div class="spacebetween">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>justify-content:space-around;</h3>
+				<div class="spacearound">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>justify-content:space-evenly;</h3>
+				<div class="spaceevenly">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h2>align-items</h2>
+				<br>
+				<p>The align-items property specifies the default alignment for items inside a flexbox or grid container.
+					In a flexbox container, the flexbox items are aligned on the cross axis, which is vertical by default (opposite of flexirection).</p>
+				<br>
+				<h3>Align-items:flex-start;</h3>
+				<div class="aflexstart">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box" style="height:100px;">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>Align-items:flex-end;</h3>
+				<div class="aflexend">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box" style="height:100px;">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>Align-items:center;</h3>
+				<div class="acenter">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box" style="height:100px;">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>Align-items:baseline;</h3>
+				<div class="abaseline">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box" style="height:100px;">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>Align-items:stretch;</h3>
+				<div class="astretch">			
+					<div class="boxs">box 1</div>
+					<div class="boxs">box 2</div>
+					<div class="boxs">box 3</div>
+					<div class="boxs">box 4</div>
+					<div class="boxs">box 5</div>
+				</div>
+				<br>
+				<h2>align-content</h2>
+				<br>
+				<p>The align-content property specifies how flex lines are distributed along the cross axis in a flexbox container.
+					it same like align-items when flex-wrap:wrap was shown in the program</p>
+				<br>
+				<h3>Align-content:flex-start;</h3>
+				<div class="aiflexstart">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box" style="width:300px;">box 4</div>
+					<div class="box">box 5</div>
+					<div class="box">box 6</div>
+					<div class="box">box 7</div>
+				</div>
+				<br>
+				<h3>Align-content:flex-end;</h3>
+				<div class="aiflexend">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box"style="width:300px;">box 3</div>
+					<div class="box"style="width:300px;">box 4</div>
+					<div class="box"style="width:300px;">box 5</div>
+					<div class="box">box 6</div>
+					<div class="box">box 7</div>
+				</div>
+				<br>
+				<h3>Align-content:center;</h3>
+				<div class="aicenter">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box"style="width:300px;">box 3</div>
+					<div class="box"style="width:300px;">box 4</div>
+					<div class="box">box 5</div>
+					<div class="box">box 6</div>
+					<div class="box">box 7</div>
+				</div>
+				<br>
+				<h3>Align-content:stretch;</h3>
+				<div class="aistretch">			
+					<div class="boxs">box 1</div>
+					<div class="boxs">box 2</div>
+					<div class="boxs" style="width:300px;">box 3</div>
+					<div class="boxs" style="width:300px;">box 4</div>
+					<div class="boxs" style="width:300px;">box 5</div>
+					<div class="boxs">box 6</div>
+					<div class="boxs">box 7</div>
+				</div>
+				<br>
+				<h3>Align-content:space-between;</h3>
+				<div class="aispacebetween">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box" style="width:300px;">box 3</div>
+					<div class="box" style="width:300px;">box 4</div>
+					<div class="box">box 5</div>
+					<div class="box">box 6</div>
+					<div class="box">box 7</div>
+				</div>
+				<br>
+				<h3>Align-content:space-around;</h3>
+				<div class="aispacearound">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box" style="width:300px;">box 3</div>
+					<div class="box" style="width:300px;">box 4</div>
+					<div class="box" style="width:300px;">box 5</div>
+					<div class="box">box 6</div>
+					<div class="box">box 7</div>
+				</div>
+				<br>
+				<h2>gap</h2>
+				<br>
+				<p>The gap property explicitly controls the space between flex items. It applies that spacing only between items not on the outer edges</p>
+				<br>
+				<h3>gap:value;</h3>
+				<div class="gap">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>row-gap:value;</h3>
+				<div class="rowgap">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+				<br>
+				<h3>column-gap:value;</h3>
+				<div class="columngap">			
+					<div class="box">box 1</div>
+					<div class="box">box 2</div>
+					<div class="box">box 3</div>
+					<div class="box">box 4</div>
+					<div class="box">box 5</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
